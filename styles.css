@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.nav ul {
+    list-style: none;
+    background: #000000;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.nav li {
+    display: inline-block;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+    width: 100px;            
+    display: block;
+    text-align: center;
+    padding: 15px;
+    font-size: 17px;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+li {
+    display: inline;
+}
+h1 {
+    text-align: 20px right;
+    border-inline-color: black;
+    font-size: bold;
+    padding: 50px;
+    text-align: center;
+}
+
+.services{
+    background-color:white;
+}
+.cards {
+    margin-left: 150px;
+    align-content:center;
+}
+.word p{
+    font-size:18px;
+
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(207, 171, 171, 0.2);
+    transition: 0.3s;
+    display: inline-block;
+    margin-right: 150px;
+    width: 18%;
+    height: 20%;
+
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card1 {
+    padding-right: 30px;
+}
+.services h2{
+    text-align:center;
+    font-size:50px;
+    font-weight:bold;
+}
+.courousel h2{
+    text-align:center;
+    font-size:50px;
+}
+#about p{
+    font-size:18px;
+    text-align:center;
+    color:black;
+}
+.far{
+    text-align:center;
+    padding:18px;
+    font-weight:bold;
+    color:black;
+    font-size:50px;
+}
+#about {
+    padding:0px;
+    background-image:url('./images/image\ 7.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+.services h3{
+    font-size:20px;
+    font-weight:bold;
+}
+.card img {
+    width: 300%;
+    height: 25vw;
+    object-fit:cover;
+}
+.carousel-caption h1{
+    color:#c8ff00;
+    font-size: 60px;
+    font-family:sans-serif;
+}
+#contact p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+#contacts{
+  background-color: rgb(16, 16, 17);
+  margin: 0px;
+  margin-left: 0%;
+  margin-right: 0%;
+
+}
+
+#contact p{
+  font-size: 30px;
+  text-align: center;
+  font-weight:lighter;
+  text-align: center;
+  color:rgb(235, 231, 231);
+}
+
+
+#contact{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px;
+    
+}
+
+footer{
+    background-color:#1E212D;
+    width: 2000px;
+    height:150px;
+}
+footer h3{
+    color:white;
+}
+
+.blog h2{
+    text-align:center;
+    font-size:50px;
+    font-weight:bold;
+}
